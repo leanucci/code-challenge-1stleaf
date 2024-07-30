@@ -1,0 +1,15 @@
+example_id                                  | status  | run_time        |
+------------------------------------------- | ------- | --------------- |
+./spec/jobs/account_key_job_spec.rb[1:1]    | pending | 0.00001 seconds |
+./spec/models/user_spec.rb[1:1]             | pending | 0.00001 seconds |
+./spec/requests/users_spec.rb[1:1:1:1]      | failed  | 0.32571 seconds |
+./spec/requests/users_spec.rb[1:1:2:1]      | failed  | 0.43699 seconds |
+./spec/requests/users_spec.rb[1:1:3:1]      | passed  | 0.44966 seconds |
+./spec/requests/users_spec.rb[1:2:1]        | failed  | 0.12209 seconds |
+./spec/requests/users_spec.rb[1:3:1:1]      | failed  | 0.00731 seconds |
+./spec/requests/users_spec.rb[1:3:1:2]      | failed  | 0.00584 seconds |
+./spec/requests/users_spec.rb[1:3:2:1]      | failed  | 0.00595 seconds |
+./spec/requests/users_spec.rb[1:3:2:2]      | failed  | 0.0056 seconds  |
+./spec/routing/users_routing_spec.rb[1:1:1] | passed  | 0.05571 seconds |
+./spec/routing/users_routing_spec.rb[1:1:2] | passed  | 0.00136 seconds |
+./spec/routing/users_routing_spec.rb[1:1:3] | passed  | 0.00147 seconds |
