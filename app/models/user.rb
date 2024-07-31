@@ -17,7 +17,7 @@ class User < ApplicationRecord
       self.key = SecureRandom.hex(20)
     end while self.class.exists?(key: key)
 
-    # request_account_key
+    request_account_key
   end
 
   def request_account_key
